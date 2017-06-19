@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/religious3"
+    tools:context="quizapp.quizapp1.Religion_Question5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout10">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="RELIGION"
+            android:textSize="50sp"
+            android:textColor="#27B3D3"  />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="5.Which religious figure wears the ring of the fishermen?"
+            android:textSize="20sp"
+            android:textColor="#141014"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="BISHOP"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickbis" />
+
+        <Button
+            android:id="@+id/mon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="MONK"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickmon" />
+
+        <Button
+            android:id="@+id/pop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="POPE"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickpop" />
+
+   </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>

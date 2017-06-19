@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/religious3"
+    tools:context="quizapp.quizapp1.Religion_Question3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="RELIGION"
+            android:textSize="50sp"
+            android:textColor="#27B3D3"/>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="3.What sign did God give Noah to show that Earth wouldn't be flooded again?"
+            android:textSize="20sp"
+            android:textColor="#141014"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/alf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="A LEAF"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickalf" />
+
+        <Button
+            android:id="@+id/arm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="A RAINBOW"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickarm" />
+
+        <Button
+            android:id="@+id/rnf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="RAINFALL"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickrnf" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/religious3"
+    tools:context="quizapp.quizapp1.Religion_Question1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:orientation="vertical"
+        android:id="@+id/linearLayout8">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="RELIGION"
+            android:textColor="#27B3D3"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="1.According to the bible which bird was sent out of the Ark by Noah?"
+            android:textSize="20sp"
+            android:textColor="#141014"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/egl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="EAGLE"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickegl"  />
+
+        <Button
+            android:id="@+id/rvn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="RAVEN"
+            android:textColor="#EE7DE4"
+            android:onClick="onClickrvn" />
+
+    <Button
+        android:id="@+id/vtr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:text="VULTURE"
+        android:textColor="#EE7DE4"
+        android:onClick="onClickvtr"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>

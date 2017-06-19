@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="quizapp.quizapp1.Currency_Question5"
+    android:background="@drawable/currency"  >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout6">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="CURRENCY"
+            android:textSize="50sp"
+            android:textColor="#032e03" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="5.Which Country does the Currency Kroner  belong to?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#01586e" />
+
+        <Button
+            android:id="@+id/mal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="MALAYSIA"
+            android:textColor="#032e03"
+            android:onClick="onClickmal"/>
+
+        <Button
+            android:id="@+id/nor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="NORWAY"
+            android:textColor="#032e03"
+            android:onClick="onClicknor" />
+
+        <Button
+            android:id="@+id/usa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="USA"
+            android:textColor="#032e03"
+            android:onClick="onClickusa" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>
